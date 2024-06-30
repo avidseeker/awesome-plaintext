@@ -5,6 +5,8 @@
 # Markup formats
 Plain plain text:
 - [Journal.TXT](https://journaltxt.github.io/) - Single-Text File Journals.
+- [calcurse.apts](https://calcurse.org/files/manual.html#basics_files) - plain text calendar
+- [journal.html](https://journal.miso.town/)
 - [Feed.TXT](https://feedtxt.github.io) - free web feeds format in (plain) text w/ structured meta data
 - [Manuscripts](http://manuscripts.github.io) - free book format - write books in (plain) text
 - [Bib.TXT](http://bibtxt.github.io) - free bibliographies in text (unicode) format - BibTeX for the 21st century - books, articles, & more
