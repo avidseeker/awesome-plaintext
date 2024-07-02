@@ -15,33 +15,20 @@ Plain plain text:
 - [todo.txt](https://github.com/todotxt/todo.txt) - Pretty well known text file format with applications on many platforms. - \*[Todo list in version control](http://urasaru.org/post/19414431348/getting-my-todo-list-under-version-control) - Based on using notational velocity and tracking it in git.
 - [Todo.TXT](https://github.com/ginatrapani/todo.txt-cli/wiki/The-Todo.txt-Format) by Gina Trapani et al -- future-proof task tracking in a file you control; if you want to get it done, first write it down.
 - [CookLang](https://cooklang.org/) - Recipe Markup Language
-
-Miscellaneous:
 - [diffscuss](http://blog.hut8labs.com/introducing-diffscuss.html) - plain-text code review system.
-- \*[The Plain Person’s Guide to Plain Text Social Science](https://plain-text.co/) [[PDF Version](https://kieranhealy.org/files/papers/plain-person-text.pdf)].
-- \*[Improving Health Care with Plain-Text Medical Records and Git](https://www.gizra.com/content/plain-text-medical-records/)
-- [Poor Man's Issue Tracker](https://github.com/driusan/PoormanIssueTracker) - a loosely defined set of conventions for using the filesystem as an issue tracker.
-- [bug](https://github.com/driusan/bug) - bug writes code problem reports to plain text files as per the poor man's issue tracker conventions. Issues are stored as human readable plaintext files, they branch and merge along with the rest of your code, and you can resolve conflicts using your standard tools.
 
 Light Markup:
-- **Markdown** -- see [Awesome Markdown](https://github.com/mundimark/awesome-markdown)
-- [**Kramdown**](https://kramdown.gettalong.org) -- see [Awesome Kramdown](https://github.com/viennahtml/awesome-kramdown)
-- **Wikipedia Markup / Wiki Text**
-- **DokuWiki Markup**
-- [**Wiki Creole**](http://www.wikicreole.org)
-- [**Text with Instruction (.texti)**](https://texti.github.io) - structured documents in text with formatting conventions; the best of markdown, wikipedia markup, latex & Friends - all together now
-- [**AsciiDoc**](http://www.methods.co.nz/asciidoc) by Stuart Rackham et al
-- [**Rimu Markup**](http://rimumarkup.org) by Stuart Rackham et al
-- **reStructured Text (.rst)**
-- **[Org /Org mode (Ecmacs)](http://orgmode.org)** -- your life in (plain) text; keeping notes, maintaining TODO lists, planning projects, and writing documents in fast and effective (plain) text
-- **[txt2tags](http://txt2tags.org)**
-
-<!--
-Extra reading:
-- [Compare Wiki Syntax @ WikiMatrix](http://www.wikimatrix.org/syntax.php)
-- [Markup & Markdown Madness!](https://markupmadness.github.io)
-- [Lightweight markup language @ Wikipedia](https://en.wikipedia.org/wiki/Lightweight_markup_language)
--->
+- [Markdown](https://github.com/mundimark/awesome-markdown)
+- [Kramdown](https://kramdown.gettalong.org) - see [Awesome Kramdown](https://github.com/viennahtml/awesome-kramdown)
+- Wiki Markup
+- DokuWiki Markup
+- [Wiki Creole](http://www.wikicreole.org)
+- [Text with Instruction (.texti)](https://texti.github.io) - structured documents in text with formatting conventions; the best of markdown, wikipedia markup, latex & Friends - all together now
+- [AsciiDoc](http://www.methods.co.nz/asciidoc) by Stuart Rackham et al
+- [Rimu Markup](http://rimumarkup.org) by Stuart Rackham et al
+- reStructured Text
+- [Org /Org mode (Ecmacs)](http://orgmode.org) - your life in (plain) text; keeping notes, maintaining TODO lists, planning projects, and writing documents in fast and effective (plain) text
+- [txt2tags](http://txt2tags.org)
 
 Typesetting markup:
 - [LaTeX](http://www.texfaq.org/FAQ-latex)
@@ -49,17 +36,11 @@ Typesetting markup:
 - [groff](https://gnu.org/software/groff/) - is a typesetting system that creates formatted output when given plain text mixed with formatting commands. Primarily used for man pages, it has been used for [books](https://rkrishnan.org/posts/2016-03-07-how-is-gopl-typeset.html) as well.
 - [rinohtype](http://www.mos6581.org/rinohtype/master/) - a Python library that transforms a structured document into a professionally typeset PDF guided by a document template and style sheet.
 - [pandoc](https://pandoc.org/) - If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
-- \*[Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)
-- \*[Unicode Nearly Plain-Text Encoding of Mathematics](https://www.unicode.org/notes/tn28/UTN28-PlainTextMath-v3.pdf) - With a few conventions, Unicode1can encode manymathematical expressions in readable nearly plain text. Technically thisformat is a “lightly marked up format”; hence the use of “nearly”.
-- [MathML](https://www.w3.org/Math/) - MathML is a low-level specification for mathematical and scientific content on the Web and beyond.
-- \*[A list of MathML Tools](https://www.w3.org/wiki/Math_Tools)
-- [AsciiDoctor](https://asciidoctor.org) - AsciiDoctor is a fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook & more.
 
 Specification:
 - [OpenAPI Specification](https://swagger.io/specification/) - a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.
-- \*[OpenAPI.Tools](https://openapi.tools/) - List of various tools that use the OpenAPI Specification including Convertors, Validators, Documentation, Mock Servers, SDK Generators, Text Editors and more.
 - [MSON](https://github.com/apiaryio/mson) - A description format for describing data structures in common markup formats such as JSON, XML or YAML.
-- [CommonMark]
+- CommonMark
 
 # Utilities
 * [Moreutils][moreutils]
