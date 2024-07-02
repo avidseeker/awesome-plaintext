@@ -17,7 +17,7 @@ Plain plain text:
 - [CookLang](https://cooklang.org/) - Recipe Markup Language
 
 Miscellaneous:
-- ~~[diffscuss](http://blog.hut8labs.com/introducing-diffscuss.html) - plain-text code review system.~~
+- [diffscuss](http://blog.hut8labs.com/introducing-diffscuss.html) - plain-text code review system.
 - \*[The Plain Person’s Guide to Plain Text Social Science](https://plain-text.co/) [[PDF Version](https://kieranhealy.org/files/papers/plain-person-text.pdf)].
 - \*[Improving Health Care with Plain-Text Medical Records and Git](https://www.gizra.com/content/plain-text-medical-records/)
 - [Poor Man's Issue Tracker](https://github.com/driusan/PoormanIssueTracker) - a loosely defined set of conventions for using the filesystem as an issue tracker.
@@ -156,6 +156,22 @@ Schema:
 - [Penflip](https://www.penflip.com/) - GitHub for *collaborative* writers.
 - [GitBook](https://www.gitbook.com/) - Book publishing platform based on git and markdown.
 - [CriticMarkup](http://criticmarkup.com/) - a way for authors and editors to track changes to documents in plain text.
+
+# Presentation
+* [Patat](https://github.com/jaspervdj/patat): terminal presentation tool written in Haskell using Pandoc as parser.
+* [tpp](https://github.com/cbbrowne/tpp)
+* [tkn](https://github.com/fxn/tkn)
+* [slider](https://github.com/dgoodlad/slider/tree/master)
+* [posero](https://github.com/alfredodeza/posero.vim): vim plugin
+* [vimdeck](https://github.com/tybenz/vimdeck)
+* [mdp](https://github.com/visit1985/mdp)
+* [vtmc](https://github.com/jclulow/vtmc)
+* [tiptip](https://github.com/mcrio/tiptip)
+* [lookatme](https://github.com/d0c-s4vage/lookatme)
+* [slides](https://github.com/maaslalani/slides)
+* [mume](https://github.com/shd101wyy/mume)
+* [org-tree-slide](https://github.com/takaxp/org-tree-slide)
+* [sent](https://tools.suckless.org/sent/)
 
 ## Finance
 Tools that let you manage finances, but keep your books in plain-text.
