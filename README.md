@@ -4,49 +4,49 @@
 
 # Markup formats
 Plain plain text:
-- [Journal.TXT](https://journaltxt.github.io/) - Single-Text File Journals.
-- [calcurse.apts](https://calcurse.org/files/manual.html#basics_files) - plain text calendar
-- [journal.html](https://journal.miso.town/)
-- [Feed.TXT](https://feedtxt.github.io) - free web feeds format in (plain) text w/ structured meta data
-- [Manuscripts](http://manuscripts.github.io) - free book format - write books in (plain) text
 - [Bib.TXT](http://bibtxt.github.io) - free bibliographies in text (unicode) format - BibTeX for the 21st century - books, articles, & more
+- [CookLang](https://cooklang.org/) - Recipe Markup Language
+- [Feed.TXT](https://feedtxt.github.io) - free web feeds format in (plain) text w/ structured meta data
+- [Journal.TXT](https://journaltxt.github.io/) - Single-Text File Journals.
+- [Manuscripts](http://manuscripts.github.io) - free book format - write books in (plain) text
+- [Todo.TXT](https://github.com/ginatrapani/todo.txt-cli/wiki/The-Todo.txt-Format) by Gina Trapani et al -- future-proof task tracking in a file you control; if you want to get it done, first write it down.
+- [calcurse.apts](https://calcurse.org/files/manual.html#basics_files) - plain text calendar
+- [diffscuss](http://blog.hut8labs.com/introducing-diffscuss.html) - plain-text code review system.
 - [journal-cli](https://journalcli.me/) - Index Your Markdown-Based Journal With Yaml Front Matter!
+- [journal.html](https://journal.miso.town/)
 - [klog](https://github.com/jotaen/klog) - klog is a plain-text file format and a command line tool for time tracking.
 - [todo.txt](https://github.com/todotxt/todo.txt) - Pretty well known text file format with applications on many platforms. - \*[Todo list in version control](http://urasaru.org/post/19414431348/getting-my-todo-list-under-version-control) - Based on using notational velocity and tracking it in git.
-- [Todo.TXT](https://github.com/ginatrapani/todo.txt-cli/wiki/The-Todo.txt-Format) by Gina Trapani et al -- future-proof task tracking in a file you control; if you want to get it done, first write it down.
-- [CookLang](https://cooklang.org/) - Recipe Markup Language
-- [diffscuss](http://blog.hut8labs.com/introducing-diffscuss.html) - plain-text code review system.
 
 Light Markup:
-- [Markdown](https://github.com/mundimark/awesome-markdown)
-- [Kramdown](https://kramdown.gettalong.org) - see [Awesome Kramdown](https://github.com/viennahtml/awesome-kramdown)
-- Wiki Markup
-- DokuWiki Markup
-- [Wiki Creole](http://www.wikicreole.org)
-- [Text with Instruction (.texti)](https://texti.github.io) - structured documents in text with formatting conventions; the best of markdown, wikipedia markup, latex & Friends - all together now
 - [AsciiDoc](http://www.methods.co.nz/asciidoc) by Stuart Rackham et al
-- [Rimu Markup](http://rimumarkup.org) by Stuart Rackham et al
-- reStructured Text
+- [DokuWiki Markup]()
+- [Kramdown](https://kramdown.gettalong.org) - see [Awesome Kramdown](https://github.com/viennahtml/awesome-kramdown)
+- [Markdown](https://github.com/mundimark/awesome-markdown)
 - [Org /Org mode (Ecmacs)](http://orgmode.org) - your life in (plain) text; keeping notes, maintaining TODO lists, planning projects, and writing documents in fast and effective (plain) text
+- [Rimu Markup](http://rimumarkup.org) by Stuart Rackham et al
+- [Text with Instruction (.texti)](https://texti.github.io) - structured documents in text with formatting conventions; the best of markdown, wikipedia markup, latex & Friends - all together now
+- [Wiki Creole](http://www.wikicreole.org)
+- [Wiki Markup]()
+- [reStructured Text]()
 - [txt2tags](http://txt2tags.org)
 
 Typesetting markup:
 - [LaTeX](http://www.texfaq.org/FAQ-latex)
 - [SILE](https://sile-typesetter.org/what-is/) - a typesetting system written in Lua and using the HarfBuzz font shaper. It’s input syntax is somewhat inspired by LaTeX.
 - [groff](https://gnu.org/software/groff/) - is a typesetting system that creates formatted output when given plain text mixed with formatting commands. Primarily used for man pages, it has been used for [books](https://rkrishnan.org/posts/2016-03-07-how-is-gopl-typeset.html) as well.
-- [rinohtype](http://www.mos6581.org/rinohtype/master/) - a Python library that transforms a structured document into a professionally typeset PDF guided by a document template and style sheet.
 - [pandoc](https://pandoc.org/) - If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
+- [rinohtype](http://www.mos6581.org/rinohtype/master/) - a Python library that transforms a structured document into a professionally typeset PDF guided by a document template and style sheet.
 
 Specification:
-- [OpenAPI Specification](https://swagger.io/specification/) - a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.
-- [MSON](https://github.com/apiaryio/mson) - A description format for describing data structures in common markup formats such as JSON, XML or YAML.
 - CommonMark
+- [MSON](https://github.com/apiaryio/mson) - A description format for describing data structures in common markup formats such as JSON, XML or YAML.
+- [OpenAPI Specification](https://swagger.io/specification/) - a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.
 
 # Utilities
-* [Moreutils][moreutils]
-* [par][par]
-* [fmt][fmt]
-* [Fold][fold]
+- [Moreutils][moreutils]
+- [par][par]
+- [fmt][fmt]
+- [Fold][fold]
 
 [moreutils]: https://joeyh.name/code/moreutils/
 [par]: https://en.wikipedia.org/wiki/Par_(command)
@@ -54,16 +54,16 @@ Specification:
 [fold]: https://en.wikipedia.org/wiki/Fold_(Unix)
 
 # Configuration
-- [etckeeper](https://etckeeper.branchable.com/). The [Arch Wiki](https://wiki.archlinux.org/title/Etckeeper) has a nice guide on usage.
+- [Editorconfig](http://editorconfig.org/) - Keep your coding styles in a .editorconfig file.
 - [NixOS](https://nixos.org/) is a completely declarative OS that uses `nix`, the purely functional package manager
-- [RANCID](https://shrubbery.net/rancid/) -  RANCID monitors a device's configuration, including software and hardware (cards, serial numbers, etc) and uses a version-control-system to maintain history of changes.
 - [Oxidised](https://github.com/ytti/oxidized) - Oxidized is a network device configuration backup tool. It's a RANCID replacement!
+- [RANCID](https://shrubbery.net/rancid/) -  RANCID monitors a device's configuration, including software and hardware (cards, serial numbers, etc) and uses a version-control-system to maintain history of changes.
+- [etckeeper](https://etckeeper.branchable.com/). The [Arch Wiki](https://wiki.archlinux.org/title/Etckeeper) has a nice guide on usage.
+- [gnu stow](http://www.gnu.org/software/stow/)
+- \*[Arch Wiki Guide](https://wiki.archlinux.org/index.php/Dotfiles#Version_control) on using version control for dotfiles
 - \*[Blog post about Oxidised](https://log.cyconet.org/2016/01/29/oxidized-silly-attempt-at-really-awesome-new-cisco-config-differ/)
 - \*[dotfiles.github.io](https://dotfiles.github.io/) - List of various dotfile resources, curated by github
-- \*[Arch Wiki Guide](https://wiki.archlinux.org/index.php/Dotfiles#Version_control) on using version control for dotfiles
-- [gnu stow](http://www.gnu.org/software/stow/)
 - \*[http://www.terminally-incoherent.com/blog/2012/03/12/putting-your-vim-files-under-version-control/](putting-your-vim-files-under-version-control)
-- [Editorconfig](http://editorconfig.org/) - Keep your coding styles in a .editorconfig file.
 
 DNS:
 - [clouddns](https://github.com/jhawthorn/clouddns) (Cloudfront)
@@ -85,9 +85,9 @@ DNS:
 - [blackbox](https://github.com/StackExchange/blackbox) - use decryption keys per user, meaning that there is no single shared password
 
 # Graphics
-* Mermaidjs
-* Tikz
-* asymptote
+- Mermaidjs
+- Tikz
+- asymptote
 - [PrintCSS](https://printcss.live/)
 - [SnowFS](https://github.com/Snowtrack/SnowFS) - a fast, scalable version control file storage for graphic files. There is a [commercial offering](https://www.snowtrack.io/) as well.
 - [kactus.io](https://kactus.io/) - Version control for designers (Sketch+Git for now)
@@ -120,7 +120,7 @@ Values, records, hierarchies (trees), types & more.
 
 - \*Jeff Atwood's [blog post](http://blog.codinghorror.com/get-your-database-under-version-control/)
 - [GNU Recutils](https://www.gnu.org/software/recutils/) - set of tools and libraries to access human-editable, plain text databases called recfiles. The data is stored as a sequence of records, each record containing an arbitrary number of named fields.
-- CSV (Comma-Separated Values)** -- see [Awesome CSV](https://github.com/csvalues/awesome-csv)
+- CSV (Comma-Separated Values) -- see [Awesome CSV](https://github.com/csvalues/awesome-csv)
 - [YAML (YAML Ain't Markup Language)](http://yaml.org) -- see [Awesome YAML](https://github.com/datatxt/awseome-yaml)
 - [JSON (JavaScript Object Notation)](http://json.org) -- see [Awesome JSON (What's Next?)](https://github.com/jsonii/awesome-json-next)
 - [TOML (Tom's Obvious, Minimal Language)](https://github.com/toml-lang/toml) by Tom Preston-Werner et al
@@ -139,20 +139,20 @@ Schema:
 - [CriticMarkup](http://criticmarkup.com/) - a way for authors and editors to track changes to documents in plain text.
 
 # Presentation
-* [Patat](https://github.com/jaspervdj/patat): terminal presentation tool written in Haskell using Pandoc as parser.
-* [tpp](https://github.com/cbbrowne/tpp)
-* [tkn](https://github.com/fxn/tkn)
-* [slider](https://github.com/dgoodlad/slider/tree/master)
-* [posero](https://github.com/alfredodeza/posero.vim): vim plugin
-* [vimdeck](https://github.com/tybenz/vimdeck)
-* [mdp](https://github.com/visit1985/mdp)
-* [vtmc](https://github.com/jclulow/vtmc)
-* [tiptip](https://github.com/mcrio/tiptip)
-* [lookatme](https://github.com/d0c-s4vage/lookatme)
-* [slides](https://github.com/maaslalani/slides)
-* [mume](https://github.com/shd101wyy/mume)
-* [org-tree-slide](https://github.com/takaxp/org-tree-slide)
-* [sent](https://tools.suckless.org/sent/)
+- [Patat](https://github.com/jaspervdj/patat): terminal presentation tool written in Haskell using Pandoc as parser.
+- [tpp](https://github.com/cbbrowne/tpp)
+- [tkn](https://github.com/fxn/tkn)
+- [slider](https://github.com/dgoodlad/slider/tree/master)
+- [posero](https://github.com/alfredodeza/posero.vim): vim plugin
+- [vimdeck](https://github.com/tybenz/vimdeck)
+- [mdp](https://github.com/visit1985/mdp)
+- [vtmc](https://github.com/jclulow/vtmc)
+- [tiptip](https://github.com/mcrio/tiptip)
+- [lookatme](https://github.com/d0c-s4vage/lookatme)
+- [slides](https://github.com/maaslalani/slides)
+- [mume](https://github.com/shd101wyy/mume)
+- [org-tree-slide](https://github.com/takaxp/org-tree-slide)
+- [sent](https://tools.suckless.org/sent/)
 
 ## Finance
 Tools that let you manage finances, but keep your books in plain-text.
@@ -161,12 +161,12 @@ Tools that let you manage finances, but keep your books in plain-text.
 - [hledger](https://hledger.org/) - cross-platform accounting software for both power users and folks new to accounting.
 - [beancount](http://furius.ca/beancount) - A double-entry bookkeeping computer language that lets you define financial transaction records in a text file, read them in memory, generate a variety of reports from them, and provides a web interface.
 - [transity](https://github.com/feramhq/transity#list-of-features--todos) - A transaction-first plain-text account tool that uses YAML to store your transactions.
-- ~~[plainbudget](https://galvez.github.io/plainbudget/) - Minimalist plaintext budgeting tool.~~
+- [plainbudget](https://galvez.github.io/plainbudget/) - Minimalist plaintext budgeting tool.
 
 # Android
-* See [Syncthing integrations](https://github.com/avidseeker/awesome-syncthing)
-	+ [ics syncing](https://github.com/avidseeker/awesome-syncthing?tab=readme-ov-file#icsx5)
-	+ [vCard syncing](https://github.com/bitfireAT/icsx5/discussions/361)
+- See [Syncthing integrations](https://github.com/avidseeker/awesome-syncthing)
+	- [ics syncing](https://github.com/avidseeker/awesome-syncthing?tab=readme-ov-file#icsx5)
+	- [vCard syncing](https://github.com/bitfireAT/icsx5/discussions/361)
 
 # Misc
 - [Plain Text Project](https://plaintextproject.online) by Scott Nesbitt et al
